@@ -141,3 +141,40 @@ main .main-input-container:hover {
     color: #222;
     box-shadow: 0 1px 1px #000001;
 }
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+footer ul li a{
+    margin: 10px;
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.footer-left {
+    justify-content: left;
+}
+
+.footer-right {
+    justify-content: right;
+}
+
+
+
